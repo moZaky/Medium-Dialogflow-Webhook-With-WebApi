@@ -1,0 +1,324 @@
+2019-09-19 10:03:28.367 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44326/helpdesk/ application/javascript 1426
+2019-09-19 10:03:28.367 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44326/api/values  
+2019-09-19 10:03:28.367 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54948/  0
+2019-09-19 10:03:28.944 +02:00 [Information] Request finished in 533.9743ms 200 
+2019-09-19 10:03:30.022 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "WebhookApi.Controllers.ValuesController" ("WebhookApi").
+2019-09-19 10:03:30.022 +02:00 [Information] Route matched with "{action = \"getData\", controller = \"Helpdesk\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] getData()" on controller "WebhookApi.Controllers.HelpdeskController" ("WebhookApi").
+2019-09-19 10:03:30.414 +02:00 [Information] Executing action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" - Validation state: Valid
+2019-09-19 10:03:30.438 +02:00 [Information] Executing action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" - Validation state: Valid
+2019-09-19 10:03:30.502 +02:00 [Information] Executed action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 7.7545ms.
+2019-09-19 10:03:30.552 +02:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-09-19 10:03:31.235 +02:00 [Information] Start Reqst
+2019-09-19 10:03:31.563 +02:00 [Information] Executed action "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" in 1471.9442ms
+2019-09-19 10:03:31.662 +02:00 [Information] Request finished in 3223.192ms 200 application/json; charset=utf-8
+2019-09-19 10:03:33.013 +02:00 [Information] { "queryText": "user's original query to your agent", "parameters": { "printerIssue": "paper jams in   ", "PrinterModel": "HP LaserJet Pro P1102w printer" }, "allRequiredParamsPresent": true, "fulfillmentText": "Text defined in Dialogflow's console for the intent that was matched", "fulfillmentMessages": [ { "text": { "text": [ "Text defined in Dialogflow's console for the intent that was matched" ] } } ], "outputContexts": [ { "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic", "lifespanCount": 5, "parameters": { "param": "param value" } } ], "intent": { "name": "projects/your-agents-project-id/agent/intents/29bcd7f8-f717-4261-a8fd-2d3e451b8af8", "displayName": "Matched Intent Name" }, "intentDetectionConfidence": 1, "diagnosticInfo": { }, "languageCode": "en" }
+2019-09-19 10:03:36.999 +02:00 [Information] workbook XLWorkbook opening from C:\Users\FT\Desktop\WebHookDialogFlow\WebhookApi\WebhookApi\App_Data\Printer.xlsx
+2019-09-19 10:03:52.510 +02:00 [Information] Executed action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 22059.4101ms.
+2019-09-19 10:03:52.541 +02:00 [Information] Executing JsonResult, writing value of type '"Google.Cloud.Dialogflow.V2.WebhookResponse"'.
+2019-09-19 10:03:53.554 +02:00 [Information] Executed action "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" in 23476.2435ms
+2019-09-19 10:03:53.621 +02:00 [Information] Request finished in 25220.7938ms 200 application/json; charset=utf-8
+2019-09-19 10:18:23.419 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54948/  0
+2019-09-19 10:18:23.419 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44326/api/values  
+2019-09-19 10:18:23.536 +02:00 [Information] Request finished in 97.1344ms 200 
+2019-09-19 10:18:23.837 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "WebhookApi.Controllers.ValuesController" ("WebhookApi").
+2019-09-19 10:18:23.960 +02:00 [Information] Executing action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" - Validation state: Valid
+2019-09-19 10:18:23.971 +02:00 [Information] Executed action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.4707ms.
+2019-09-19 10:18:23.987 +02:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-09-19 10:18:24.086 +02:00 [Information] Executed action "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" in 235.1638ms
+2019-09-19 10:18:24.141 +02:00 [Information] Request finished in 699.6996ms 200 application/json; charset=utf-8
+2019-09-19 10:18:39.972 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44326/helpdesk/ application/javascript 1426
+2019-09-19 10:18:40.015 +02:00 [Information] Route matched with "{action = \"getData\", controller = \"Helpdesk\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] getData()" on controller "WebhookApi.Controllers.HelpdeskController" ("WebhookApi").
+2019-09-19 10:18:40.108 +02:00 [Information] Executing action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" - Validation state: Valid
+2019-09-19 10:18:40.475 +02:00 [Information] Start Reqst
+2019-09-19 10:18:42.010 +02:00 [Information] { "queryText": "user's original query to your agent", "parameters": { "printerIssue": "paper jams in   ", "PrinterModel": "HP LaserJet Pro P1102w printer" }, "allRequiredParamsPresent": true, "fulfillmentText": "Text defined in Dialogflow's console for the intent that was matched", "fulfillmentMessages": [ { "text": { "text": [ "Text defined in Dialogflow's console for the intent that was matched" ] } } ], "outputContexts": [ { "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic", "lifespanCount": 5, "parameters": { "param": "param value" } } ], "intent": { "name": "projects/your-agents-project-id/agent/intents/29bcd7f8-f717-4261-a8fd-2d3e451b8af8", "displayName": "Matched Intent Name" }, "intentDetectionConfidence": 1, "diagnosticInfo": { }, "languageCode": "en" }
+2019-09-19 10:39:22.139 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54948/  0
+2019-09-19 10:39:22.139 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44326/api/values  
+2019-09-19 10:39:22.238 +02:00 [Information] Request finished in 95.5717ms 200 
+2019-09-19 10:39:22.563 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "WebhookApi.Controllers.ValuesController" ("WebhookApi").
+2019-09-19 10:39:22.710 +02:00 [Information] Executing action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" - Validation state: Valid
+2019-09-19 10:39:22.720 +02:00 [Information] Executed action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.4709ms.
+2019-09-19 10:39:22.731 +02:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-09-19 10:39:22.842 +02:00 [Information] Executed action "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" in 263.301ms
+2019-09-19 10:39:22.874 +02:00 [Information] Request finished in 722.394ms 200 application/json; charset=utf-8
+2019-09-19 10:40:51.796 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44326/helpdesk/ application/javascript 1426
+2019-09-19 10:40:51.844 +02:00 [Information] Route matched with "{action = \"getData\", controller = \"Helpdesk\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] getData()" on controller "WebhookApi.Controllers.HelpdeskController" ("WebhookApi").
+2019-09-19 10:40:51.968 +02:00 [Information] Executing action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" - Validation state: Valid
+2019-09-19 10:40:52.325 +02:00 [Information] Start Reqst
+2019-09-19 10:40:54.994 +02:00 [Information] { "queryText": "user's original query to your agent", "parameters": { "printerIssue": "paper jams in   ", "PrinterModel": "HP LaserJet Pro P1102w printer" }, "allRequiredParamsPresent": true, "fulfillmentText": "Text defined in Dialogflow's console for the intent that was matched", "fulfillmentMessages": [ { "text": { "text": [ "Text defined in Dialogflow's console for the intent that was matched" ] } } ], "outputContexts": [ { "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic", "lifespanCount": 5, "parameters": { "param": "param value" } } ], "intent": { "name": "projects/your-agents-project-id/agent/intents/29bcd7f8-f717-4261-a8fd-2d3e451b8af8", "displayName": "Matched Intent Name" }, "intentDetectionConfidence": 1, "diagnosticInfo": { }, "languageCode": "en" }
+2019-09-19 10:41:00.182 +02:00 [Information] byteArrary  System.Byte[] Length 12035
+2019-09-19 10:41:01.701 +02:00 [Information] workbook XLWorkbook opening from C:\Users\FT\Desktop\WebHookDialogFlow\WebhookApi\WebhookApi\App_Data\Printer.xlsx
+2019-09-19 10:41:04.880 +02:00 [Information] Executed action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 12907.6468ms.
+2019-09-19 10:41:04.890 +02:00 [Information] Executing JsonResult, writing value of type '"Google.Cloud.Dialogflow.V2.WebhookResponse"'.
+2019-09-19 10:41:04.938 +02:00 [Information] Executed action "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" in 13090.0641ms
+2019-09-19 10:41:04.949 +02:00 [Information] Request finished in 13160.5747ms 200 application/json; charset=utf-8
+2019-09-19 10:47:10.020 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54948/  0
+2019-09-19 10:47:10.020 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44326/api/values  
+2019-09-19 10:47:10.214 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44326/helpdesk/ application/javascript 1426
+2019-09-19 10:47:10.257 +02:00 [Information] Request finished in 249.4105ms 200 
+2019-09-19 10:47:10.681 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "WebhookApi.Controllers.ValuesController" ("WebhookApi").
+2019-09-19 10:47:10.682 +02:00 [Information] Route matched with "{action = \"getData\", controller = \"Helpdesk\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] getData()" on controller "WebhookApi.Controllers.HelpdeskController" ("WebhookApi").
+2019-09-19 10:47:11.002 +02:00 [Information] Executing action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" - Validation state: Valid
+2019-09-19 10:47:11.002 +02:00 [Information] Executing action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" - Validation state: Valid
+2019-09-19 10:47:11.042 +02:00 [Information] Executed action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.4602ms.
+2019-09-19 10:47:11.101 +02:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-09-19 10:47:11.185 +02:00 [Information] Start Reqst
+2019-09-19 10:47:11.452 +02:00 [Information] Executed action "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" in 682.66ms
+2019-09-19 10:47:11.503 +02:00 [Information] Request finished in 1468.5111ms 200 application/json; charset=utf-8
+2019-09-19 10:47:12.417 +02:00 [Information] { "queryText": "user's original query to your agent", "parameters": { "printerIssue": "paper jams in   ", "PrinterModel": "HP LaserJet Pro P1102w printer" }, "allRequiredParamsPresent": true, "fulfillmentText": "Text defined in Dialogflow's console for the intent that was matched", "fulfillmentMessages": [ { "text": { "text": [ "Text defined in Dialogflow's console for the intent that was matched" ] } } ], "outputContexts": [ { "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic", "lifespanCount": 5, "parameters": { "param": "param value" } } ], "intent": { "name": "projects/your-agents-project-id/agent/intents/29bcd7f8-f717-4261-a8fd-2d3e451b8af8", "displayName": "Matched Intent Name" }, "intentDetectionConfidence": 1, "diagnosticInfo": { }, "languageCode": "en" }
+2019-09-19 10:47:14.935 +02:00 [Information] byteArrary  Length 12035
+2019-09-19 10:47:16.355 +02:00 [Information] workbook XLWorkbook opening from C:\Users\FT\Desktop\WebHookDialogFlow\WebhookApi\WebhookApi\App_Data\Printer.xlsx
+2019-09-19 10:47:21.007 +02:00 [Information]  rows count ClosedXML.Excel.XLRangeRows
+2019-09-19 10:47:21.011 +02:00 [Information]  rows loop
+2019-09-19 10:47:21.033 +02:00 [Information]  rowNumber1 rows string paper jams - stuck - paper jagged 
+2019-09-19 10:47:21.037 +02:00 [Information] Executed action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 10032.0657ms.
+2019-09-19 10:47:21.059 +02:00 [Information] Executing JsonResult, writing value of type '"Google.Cloud.Dialogflow.V2.WebhookResponse"'.
+2019-09-19 10:47:21.164 +02:00 [Information] Executed action "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" in 10479.0153ms
+2019-09-19 10:47:21.240 +02:00 [Information] Request finished in 10959.7891ms 200 application/json; charset=utf-8
+2019-09-19 10:48:45.585 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44326/api/values  
+2019-09-19 10:48:45.586 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54948/  0
+2019-09-19 10:48:45.740 +02:00 [Information] Request finished in 104.6228ms 200 
+2019-09-19 10:48:46.040 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "WebhookApi.Controllers.ValuesController" ("WebhookApi").
+2019-09-19 10:48:46.151 +02:00 [Information] Executing action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" - Validation state: Valid
+2019-09-19 10:48:46.161 +02:00 [Information] Executed action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.0002ms.
+2019-09-19 10:48:46.176 +02:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-09-19 10:48:46.279 +02:00 [Information] Executed action "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" in 221.4619ms
+2019-09-19 10:48:46.373 +02:00 [Information] Request finished in 742.9574ms 200 application/json; charset=utf-8
+2019-09-19 10:48:57.102 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44326/helpdesk/ application/javascript 1426
+2019-09-19 10:48:57.178 +02:00 [Information] Route matched with "{action = \"getData\", controller = \"Helpdesk\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] getData()" on controller "WebhookApi.Controllers.HelpdeskController" ("WebhookApi").
+2019-09-19 10:48:57.287 +02:00 [Information] Executing action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" - Validation state: Valid
+2019-09-19 10:48:58.128 +02:00 [Information] Start Reqst
+2019-09-19 10:49:01.087 +02:00 [Information] { "queryText": "user's original query to your agent", "parameters": { "printerIssue": "paper jams in   ", "PrinterModel": "HP LaserJet Pro P1102w printer" }, "allRequiredParamsPresent": true, "fulfillmentText": "Text defined in Dialogflow's console for the intent that was matched", "fulfillmentMessages": [ { "text": { "text": [ "Text defined in Dialogflow's console for the intent that was matched" ] } } ], "outputContexts": [ { "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic", "lifespanCount": 5, "parameters": { "param": "param value" } } ], "intent": { "name": "projects/your-agents-project-id/agent/intents/29bcd7f8-f717-4261-a8fd-2d3e451b8af8", "displayName": "Matched Intent Name" }, "intentDetectionConfidence": 1, "diagnosticInfo": { }, "languageCode": "en" }
+2019-09-19 10:49:04.807 +02:00 [Information] byteArrary  Length 12035
+2019-09-19 10:49:05.864 +02:00 [Information] workbook XLWorkbook opening from C:\Users\FT\Desktop\WebHookDialogFlow\WebhookApi\WebhookApi\App_Data\Printer.xlsx
+2019-09-19 10:49:10.673 +02:00 [Information]  rows count 3
+2019-09-19 10:49:10.696 +02:00 [Information]  rows loop
+2019-09-19 10:49:10.774 +02:00 [Information]  rowNumber1 rows string paper jams - stuck - paper jagged 
+2019-09-19 10:49:10.806 +02:00 [Information] Executed action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 13488.0829ms.
+2019-09-19 10:49:10.820 +02:00 [Information] Executing JsonResult, writing value of type '"Google.Cloud.Dialogflow.V2.WebhookResponse"'.
+2019-09-19 10:49:10.939 +02:00 [Information] Executed action "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" in 13745.4933ms
+2019-09-19 10:49:10.996 +02:00 [Information] Request finished in 13863.306ms 200 application/json; charset=utf-8
+2019-09-19 11:05:12.848 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44326/helpdesk/ application/javascript 1426
+2019-09-19 11:05:13.430 +02:00 [Information] Route matched with "{action = \"getData\", controller = \"Helpdesk\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] getData()" on controller "WebhookApi.Controllers.HelpdeskController" ("WebhookApi").
+2019-09-19 11:05:13.466 +02:00 [Information] Executing action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" - Validation state: Valid
+2019-09-19 11:05:13.528 +02:00 [Information] Start Reqst
+2019-09-19 11:05:14.360 +02:00 [Information] { "queryText": "user's original query to your agent", "parameters": { "printerIssue": "paper jams in   ", "PrinterModel": "HP LaserJet Pro P1102w printer" }, "allRequiredParamsPresent": true, "fulfillmentText": "Text defined in Dialogflow's console for the intent that was matched", "fulfillmentMessages": [ { "text": { "text": [ "Text defined in Dialogflow's console for the intent that was matched" ] } } ], "outputContexts": [ { "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic", "lifespanCount": 5, "parameters": { "param": "param value" } } ], "intent": { "name": "projects/your-agents-project-id/agent/intents/29bcd7f8-f717-4261-a8fd-2d3e451b8af8", "displayName": "Matched Intent Name" }, "intentDetectionConfidence": 1, "diagnosticInfo": { }, "languageCode": "en" }
+2019-09-19 11:05:14.379 +02:00 [Information] byteArrary  Length 12035
+2019-09-19 11:05:14.380 +02:00 [Information] workbook XLWorkbook opening from C:\Users\FT\Desktop\WebHookDialogFlow\WebhookApi\WebhookApi\App_Data\Printer.xlsx
+2019-09-19 11:05:16.677 +02:00 [Information]  rows count 3
+2019-09-19 11:05:16.677 +02:00 [Information]  rows loop
+2019-09-19 11:05:16.713 +02:00 [Information]  rowNumber1 rows string paper jams - stuck - paper jagged 
+2019-09-19 11:05:16.726 +02:00 [Information] Executed action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 3247.6394ms.
+2019-09-19 11:05:16.744 +02:00 [Information] Executing JsonResult, writing value of type '"Google.Cloud.Dialogflow.V2.WebhookResponse"'.
+2019-09-19 11:05:16.858 +02:00 [Information] Executed action "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" in 3418.086ms
+2019-09-19 11:05:16.884 +02:00 [Information] Request finished in 4070.2741ms 200 application/json; charset=utf-8
+2019-09-19 11:05:32.106 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44326/api/values  
+2019-09-19 11:05:32.106 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54948/  0
+2019-09-19 11:05:32.338 +02:00 [Information] Request finished in 200.7909ms 200 
+2019-09-19 11:05:33.291 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "WebhookApi.Controllers.ValuesController" ("WebhookApi").
+2019-09-19 11:05:33.607 +02:00 [Information] Executing action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" - Validation state: Valid
+2019-09-19 11:05:33.630 +02:00 [Information] Executed action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.6168ms.
+2019-09-19 11:05:33.678 +02:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-09-19 11:05:34.005 +02:00 [Information] Executed action "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" in 674.7969ms
+2019-09-19 11:05:34.039 +02:00 [Information] Request finished in 1943.8169ms 200 application/json; charset=utf-8
+2019-09-19 11:05:42.165 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44326/helpdesk/ application/javascript 1426
+2019-09-19 11:05:42.238 +02:00 [Information] Route matched with "{action = \"getData\", controller = \"Helpdesk\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] getData()" on controller "WebhookApi.Controllers.HelpdeskController" ("WebhookApi").
+2019-09-19 11:05:42.347 +02:00 [Information] Executing action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" - Validation state: Valid
+2019-09-19 11:05:43.813 +02:00 [Information] Start Reqst
+2019-09-19 11:05:46.099 +02:00 [Information] { "queryText": "user's original query to your agent", "parameters": { "printerIssue": "paper jams in   ", "PrinterModel": "HP LaserJet Pro P1102w printer" }, "allRequiredParamsPresent": true, "fulfillmentText": "Text defined in Dialogflow's console for the intent that was matched", "fulfillmentMessages": [ { "text": { "text": [ "Text defined in Dialogflow's console for the intent that was matched" ] } } ], "outputContexts": [ { "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic", "lifespanCount": 5, "parameters": { "param": "param value" } } ], "intent": { "name": "projects/your-agents-project-id/agent/intents/29bcd7f8-f717-4261-a8fd-2d3e451b8af8", "displayName": "Matched Intent Name" }, "intentDetectionConfidence": 1, "diagnosticInfo": { }, "languageCode": "en" }
+2019-09-19 11:06:23.344 +02:00 [Information] byteArrary  Length 12035
+2019-09-19 11:06:27.793 +02:00 [Information] workbook XLWorkbook opening from C:\Users\FT\Desktop\WebHookDialogFlow\WebhookApi\WebhookApi\App_Data\Printer.xlsx
+2019-09-19 11:06:30.807 +02:00 [Information]  rows count 3
+2019-09-19 11:06:30.836 +02:00 [Information]  rows loop
+2019-09-19 11:06:30.996 +02:00 [Information]  rowNumber1 rows string paper jams - stuck - paper jagged 
+2019-09-19 11:07:23.248 +02:00 [Information] Executed action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 100879.3525ms.
+2019-09-19 11:07:23.314 +02:00 [Information] Executing JsonResult, writing value of type '"Google.Cloud.Dialogflow.V2.WebhookResponse"'.
+2019-09-19 11:07:23.456 +02:00 [Information] Executed action "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" in 101166.7194ms
+2019-09-19 11:07:23.653 +02:00 [Information] Request finished in 101462.2415ms 200 application/json; charset=utf-8
+2019-09-19 11:15:05.036 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44326/api/values  
+2019-09-19 11:15:05.036 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54948/  0
+2019-09-19 11:15:05.187 +02:00 [Information] Request finished in 122.1101ms 200 
+2019-09-19 11:15:05.607 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "WebhookApi.Controllers.ValuesController" ("WebhookApi").
+2019-09-19 11:15:05.765 +02:00 [Information] Executing action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" - Validation state: Valid
+2019-09-19 11:15:05.775 +02:00 [Information] Executed action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.9781ms.
+2019-09-19 11:15:05.794 +02:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-09-19 11:15:05.931 +02:00 [Information] Executed action "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" in 305.3939ms
+2019-09-19 11:15:05.943 +02:00 [Information] Request finished in 923.9573ms 200 application/json; charset=utf-8
+2019-09-19 11:15:09.523 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44326/helpdesk/ application/javascript 1426
+2019-09-19 11:15:09.553 +02:00 [Information] Route matched with "{action = \"getData\", controller = \"Helpdesk\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] getData()" on controller "WebhookApi.Controllers.HelpdeskController" ("WebhookApi").
+2019-09-19 11:15:09.696 +02:00 [Information] Executing action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" - Validation state: Valid
+2019-09-19 11:15:10.050 +02:00 [Information] Start Reqst
+2019-09-19 11:15:12.560 +02:00 [Information] { "queryText": "user's original query to your agent", "parameters": { "printerIssue": "paper jams in   ", "PrinterModel": "HP LaserJet Pro P1102w printer" }, "allRequiredParamsPresent": true, "fulfillmentText": "Text defined in Dialogflow's console for the intent that was matched", "fulfillmentMessages": [ { "text": { "text": [ "Text defined in Dialogflow's console for the intent that was matched" ] } } ], "outputContexts": [ { "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic", "lifespanCount": 5, "parameters": { "param": "param value" } } ], "intent": { "name": "projects/your-agents-project-id/agent/intents/29bcd7f8-f717-4261-a8fd-2d3e451b8af8", "displayName": "Matched Intent Name" }, "intentDetectionConfidence": 1, "diagnosticInfo": { }, "languageCode": "en" }
+2019-09-19 11:15:25.383 +02:00 [Information] byteArrary  Length 12035
+2019-09-19 11:15:25.394 +02:00 [Information] workbook XLWorkbook opening from C:\Users\FT\Desktop\WebHookDialogFlow\WebhookApi\WebhookApi\App_Data\Printer.xlsx
+2019-09-19 11:15:29.761 +02:00 [Information]  rows count 3
+2019-09-19 11:15:29.766 +02:00 [Information]  rows loop
+2019-09-19 11:15:29.814 +02:00 [Information]  rowNumber1 rows string paper jams - stuck - paper jagged 
+2019-09-19 11:15:50.755 +02:00 [Information]  matchFound objPage.Any(printerIssue.Contains
+2019-09-19 11:15:52.913 +02:00 [Information]  result 1. Remove any loose paper in the loading tray.
+2. Press the Resume button on the front of the printer.
+3. Remove stuck paper one sheet at a time, starting in the middle.
+4. Check for any remaining bits of paper.
+2019-09-19 11:15:54.720 +02:00 [Information] Executed action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 45019.4381ms.
+2019-09-19 11:15:54.733 +02:00 [Information] Executing JsonResult, writing value of type '"Google.Cloud.Dialogflow.V2.WebhookResponse"'.
+2019-09-19 11:15:54.802 +02:00 [Information] Executed action "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" in 45245.5102ms
+2019-09-19 11:15:54.805 +02:00 [Information] Request finished in 45287.1743ms 200 application/json; charset=utf-8
+2019-09-19 11:20:11.963 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44326/api/values  
+2019-09-19 11:20:11.963 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54948/  0
+2019-09-19 11:20:12.065 +02:00 [Information] Request finished in 97.4088ms 200 
+2019-09-19 11:20:12.330 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "WebhookApi.Controllers.ValuesController" ("WebhookApi").
+2019-09-19 11:20:12.452 +02:00 [Information] Executing action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" - Validation state: Valid
+2019-09-19 11:20:12.460 +02:00 [Information] Executed action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.349ms.
+2019-09-19 11:20:12.474 +02:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-09-19 11:20:12.607 +02:00 [Information] Executed action "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" in 246.3221ms
+2019-09-19 11:20:12.631 +02:00 [Information] Request finished in 671.3895ms 200 application/json; charset=utf-8
+2019-09-19 11:20:18.061 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44326/helpdesk/ application/javascript 1426
+2019-09-19 11:20:18.168 +02:00 [Information] Route matched with "{action = \"getData\", controller = \"Helpdesk\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] getData()" on controller "WebhookApi.Controllers.HelpdeskController" ("WebhookApi").
+2019-09-19 11:20:18.302 +02:00 [Information] Executing action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" - Validation state: Valid
+2019-09-19 11:20:18.894 +02:00 [Information] Start Reqst
+2019-09-19 11:20:21.360 +02:00 [Information] { "queryText": "user's original query to your agent", "parameters": { "printerIssue": "paper jams in   ", "PrinterModel": "HP LaserJet Pro P1102w printer" }, "allRequiredParamsPresent": true, "fulfillmentText": "Text defined in Dialogflow's console for the intent that was matched", "fulfillmentMessages": [ { "text": { "text": [ "Text defined in Dialogflow's console for the intent that was matched" ] } } ], "outputContexts": [ { "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic", "lifespanCount": 5, "parameters": { "param": "param value" } } ], "intent": { "name": "projects/your-agents-project-id/agent/intents/29bcd7f8-f717-4261-a8fd-2d3e451b8af8", "displayName": "Matched Intent Name" }, "intentDetectionConfidence": 1, "diagnosticInfo": { }, "languageCode": "en" }
+2019-09-19 11:20:26.324 +02:00 [Information] byteArrary  Length 12035
+2019-09-19 11:20:26.340 +02:00 [Information] workbook XLWorkbook opening from C:\Users\FT\Desktop\WebHookDialogFlow\WebhookApi\WebhookApi\App_Data\Printer.xlsx
+2019-09-19 11:20:31.509 +02:00 [Information]  rows count 3
+2019-09-19 11:20:31.512 +02:00 [Information]  rows loop
+2019-09-19 11:20:31.539 +02:00 [Information]  rowNumber1 rows string paper jams - stuck - paper jagged 
+2019-09-19 11:25:30.962 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44326/api/values  
+2019-09-19 11:25:30.962 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54948/  0
+2019-09-19 11:25:31.092 +02:00 [Information] Request finished in 132.4114ms 200 
+2019-09-19 11:25:31.405 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "WebhookApi.Controllers.ValuesController" ("WebhookApi").
+2019-09-19 11:25:31.524 +02:00 [Information] Executing action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" - Validation state: Valid
+2019-09-19 11:25:31.538 +02:00 [Information] Executed action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.2856ms.
+2019-09-19 11:25:31.558 +02:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-09-19 11:25:31.718 +02:00 [Information] Executed action "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" in 293.8162ms
+2019-09-19 11:25:31.787 +02:00 [Information] Request finished in 798.2953ms 200 application/json; charset=utf-8
+2019-09-19 11:26:31.108 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44326/helpdesk/ application/javascript 1426
+2019-09-19 11:26:31.191 +02:00 [Information] Route matched with "{action = \"getData\", controller = \"Helpdesk\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] getData()" on controller "WebhookApi.Controllers.HelpdeskController" ("WebhookApi").
+2019-09-19 11:26:31.308 +02:00 [Information] Executing action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" - Validation state: Valid
+2019-09-19 11:26:31.982 +02:00 [Information] Start Reqst
+2019-09-19 11:26:34.482 +02:00 [Information] { "queryText": "user's original query to your agent", "parameters": { "printerIssue": "paper jams in   ", "PrinterModel": "HP LaserJet Pro P1102w printer" }, "allRequiredParamsPresent": true, "fulfillmentText": "Text defined in Dialogflow's console for the intent that was matched", "fulfillmentMessages": [ { "text": { "text": [ "Text defined in Dialogflow's console for the intent that was matched" ] } } ], "outputContexts": [ { "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic", "lifespanCount": 5, "parameters": { "param": "param value" } } ], "intent": { "name": "projects/your-agents-project-id/agent/intents/29bcd7f8-f717-4261-a8fd-2d3e451b8af8", "displayName": "Matched Intent Name" }, "intentDetectionConfidence": 1, "diagnosticInfo": { }, "languageCode": "en" }
+2019-09-19 11:26:34.500 +02:00 [Information] byteArrary  Length 12035
+2019-09-19 11:26:34.509 +02:00 [Information] workbook XLWorkbook opening from C:\Users\FT\Desktop\WebHookDialogFlow\WebhookApi\WebhookApi\App_Data\Printer.xlsx
+2019-09-19 11:26:37.757 +02:00 [Information]  rows count 3
+2019-09-19 11:26:37.761 +02:00 [Information]  rows loop
+2019-09-19 11:26:37.781 +02:00 [Information]  rowNumber1 rows string paper jams - stuck - paper jagged 
+2019-09-19 11:26:37.875 +02:00 [Information]  rowNumber2 rows string too slow -
+Printing takes too long
+2019-09-19 11:26:37.884 +02:00 [Information]  rowNumber3 rows string low ink - need new cartridge -  empty cartridge
+2019-09-19 11:26:51.662 +02:00 [Information] Executed action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 20345.3196ms.
+2019-09-19 11:26:51.686 +02:00 [Information] Executing JsonResult, writing value of type '"Google.Cloud.Dialogflow.V2.WebhookResponse"'.
+2019-09-19 11:26:52.087 +02:00 [Information] Executed action "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" in 20762.9552ms
+2019-09-19 11:26:52.144 +02:00 [Information] Request finished in 20996.4161ms 200 application/json; charset=utf-8
+2019-09-19 11:26:58.500 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44326/helpdesk/ application/javascript 1426
+2019-09-19 11:26:58.535 +02:00 [Information] Route matched with "{action = \"getData\", controller = \"Helpdesk\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] getData()" on controller "WebhookApi.Controllers.HelpdeskController" ("WebhookApi").
+2019-09-19 11:26:58.672 +02:00 [Information] Executing action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" - Validation state: Valid
+2019-09-19 11:26:58.738 +02:00 [Information] Start Reqst
+2019-09-19 11:26:58.772 +02:00 [Information] { "queryText": "user's original query to your agent", "parameters": { "printerIssue": "paper jams in   ", "PrinterModel": "HP LaserJet Pro P1102w printer" }, "allRequiredParamsPresent": true, "fulfillmentText": "Text defined in Dialogflow's console for the intent that was matched", "fulfillmentMessages": [ { "text": { "text": [ "Text defined in Dialogflow's console for the intent that was matched" ] } } ], "outputContexts": [ { "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic", "lifespanCount": 5, "parameters": { "param": "param value" } } ], "intent": { "name": "projects/your-agents-project-id/agent/intents/29bcd7f8-f717-4261-a8fd-2d3e451b8af8", "displayName": "Matched Intent Name" }, "intentDetectionConfidence": 1, "diagnosticInfo": { }, "languageCode": "en" }
+2019-09-19 11:26:58.828 +02:00 [Information] byteArrary  Length 12035
+2019-09-19 11:26:58.885 +02:00 [Information] workbook XLWorkbook opening from C:\Users\FT\Desktop\WebHookDialogFlow\WebhookApi\WebhookApi\App_Data\Printer.xlsx
+2019-09-19 11:26:58.955 +02:00 [Information]  rows count 3
+2019-09-19 11:26:59.089 +02:00 [Information]  rows loop
+2019-09-19 11:26:59.124 +02:00 [Information]  rowNumber1 rows string paper jams - stuck - paper jagged 
+2019-09-19 11:31:08.723 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54948/  0
+2019-09-19 11:31:08.723 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44326/api/values  
+2019-09-19 11:31:08.840 +02:00 [Information] Request finished in 102.333ms 200 
+2019-09-19 11:31:09.059 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "WebhookApi.Controllers.ValuesController" ("WebhookApi").
+2019-09-19 11:31:09.178 +02:00 [Information] Executing action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" - Validation state: Valid
+2019-09-19 11:31:09.189 +02:00 [Information] Executed action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.3642ms.
+2019-09-19 11:31:09.232 +02:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-09-19 11:31:10.002 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44326/helpdesk/ application/javascript 1426
+2019-09-19 11:31:10.036 +02:00 [Information] Route matched with "{action = \"getData\", controller = \"Helpdesk\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] getData()" on controller "WebhookApi.Controllers.HelpdeskController" ("WebhookApi").
+2019-09-19 11:31:10.102 +02:00 [Information] Executing action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" - Validation state: Valid
+2019-09-19 11:31:10.141 +02:00 [Information] Executed action "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" in 1042.0514ms
+2019-09-19 11:31:10.183 +02:00 [Information] Request finished in 1468.1331ms 200 application/json; charset=utf-8
+2019-09-19 11:31:10.266 +02:00 [Information] Start Reqst
+2019-09-19 11:31:11.010 +02:00 [Information] { "queryText": "user's original query to your agent", "parameters": { "printerIssue": "paper jams in   ", "PrinterModel": "HP LaserJet Pro P1102w printer" }, "allRequiredParamsPresent": true, "fulfillmentText": "Text defined in Dialogflow's console for the intent that was matched", "fulfillmentMessages": [ { "text": { "text": [ "Text defined in Dialogflow's console for the intent that was matched" ] } } ], "outputContexts": [ { "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic", "lifespanCount": 5, "parameters": { "param": "param value" } } ], "intent": { "name": "projects/your-agents-project-id/agent/intents/29bcd7f8-f717-4261-a8fd-2d3e451b8af8", "displayName": "Matched Intent Name" }, "intentDetectionConfidence": 1, "diagnosticInfo": { }, "languageCode": "en" }
+2019-09-19 11:31:11.019 +02:00 [Information] byteArrary  Length 12035
+2019-09-19 11:31:11.022 +02:00 [Information] workbook XLWorkbook opening from C:\Users\FT\Desktop\WebHookDialogFlow\WebhookApi\WebhookApi\App_Data\Printer.xlsx
+2019-09-19 11:31:12.919 +02:00 [Information]  rows count 3
+2019-09-19 11:31:12.921 +02:00 [Information]  rows loop
+2019-09-19 11:31:12.939 +02:00 [Information]  rowNumber1 rows string paper jams - stuck - paper jagged 
+2019-09-19 11:38:16.205 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54948/  0
+2019-09-19 11:38:16.205 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44326/api/values  
+2019-09-19 11:38:16.378 +02:00 [Information] Request finished in 147.6155ms 200 
+2019-09-19 11:38:16.657 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "WebhookApi.Controllers.ValuesController" ("WebhookApi").
+2019-09-19 11:38:16.778 +02:00 [Information] Executing action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" - Validation state: Valid
+2019-09-19 11:38:16.788 +02:00 [Information] Executed action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.8267ms.
+2019-09-19 11:38:16.803 +02:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-09-19 11:38:16.909 +02:00 [Information] Executed action "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" in 229.7461ms
+2019-09-19 11:38:16.993 +02:00 [Information] Request finished in 744.0232ms 200 application/json; charset=utf-8
+2019-09-19 11:38:24.731 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44326/helpdesk/ application/javascript 1426
+2019-09-19 11:38:24.794 +02:00 [Information] Route matched with "{action = \"getData\", controller = \"Helpdesk\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] getData()" on controller "WebhookApi.Controllers.HelpdeskController" ("WebhookApi").
+2019-09-19 11:38:24.902 +02:00 [Information] Executing action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" - Validation state: Valid
+2019-09-19 11:38:25.696 +02:00 [Information] Start Reqst
+2019-09-19 11:38:28.112 +02:00 [Information] { "queryText": "user's original query to your agent", "parameters": { "printerIssue": "paper jams in   ", "PrinterModel": "HP LaserJet Pro P1102w printer" }, "allRequiredParamsPresent": true, "fulfillmentText": "Text defined in Dialogflow's console for the intent that was matched", "fulfillmentMessages": [ { "text": { "text": [ "Text defined in Dialogflow's console for the intent that was matched" ] } } ], "outputContexts": [ { "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic", "lifespanCount": 5, "parameters": { "param": "param value" } } ], "intent": { "name": "projects/your-agents-project-id/agent/intents/29bcd7f8-f717-4261-a8fd-2d3e451b8af8", "displayName": "Matched Intent Name" }, "intentDetectionConfidence": 1, "diagnosticInfo": { }, "languageCode": "en" }
+2019-09-19 11:38:28.162 +02:00 [Information] byteArrary  Length 12035
+2019-09-19 11:38:28.189 +02:00 [Information] workbook XLWorkbook opening from C:\Users\FT\Desktop\WebHookDialogFlow\WebhookApi\WebhookApi\App_Data\Printer.xlsx
+2019-09-19 11:38:31.135 +02:00 [Information]  rows count 3
+2019-09-19 11:38:31.171 +02:00 [Information]  rows loop
+2019-09-19 11:38:31.205 +02:00 [Information]  rowNumber1 rows string paper jams - stuck - paper jagged 
+2019-09-19 11:43:10.849 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44326/api/values  
+2019-09-19 11:43:10.849 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54948/  0
+2019-09-19 11:43:10.959 +02:00 [Information] Request finished in 92.5624ms 200 
+2019-09-19 11:43:11.359 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "WebhookApi.Controllers.ValuesController" ("WebhookApi").
+2019-09-19 11:43:11.520 +02:00 [Information] Executing action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" - Validation state: Valid
+2019-09-19 11:43:11.528 +02:00 [Information] Executed action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.3461ms.
+2019-09-19 11:43:11.541 +02:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-09-19 11:43:11.678 +02:00 [Information] Executed action "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" in 305.7821ms
+2019-09-19 11:43:11.688 +02:00 [Information] Request finished in 850.3579ms 200 application/json; charset=utf-8
+2019-09-19 11:43:17.079 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44326/helpdesk/ application/javascript 1426
+2019-09-19 11:43:17.165 +02:00 [Information] Route matched with "{action = \"getData\", controller = \"Helpdesk\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] getData()" on controller "WebhookApi.Controllers.HelpdeskController" ("WebhookApi").
+2019-09-19 11:43:17.275 +02:00 [Information] Executing action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" - Validation state: Valid
+2019-09-19 11:43:17.553 +02:00 [Information] Start Reqst
+2019-09-19 11:43:20.040 +02:00 [Information] { "queryText": "user's original query to your agent", "parameters": { "printerIssue": "paper jams in   ", "PrinterModel": "HP LaserJet Pro P1102w printer" }, "allRequiredParamsPresent": true, "fulfillmentText": "Text defined in Dialogflow's console for the intent that was matched", "fulfillmentMessages": [ { "text": { "text": [ "Text defined in Dialogflow's console for the intent that was matched" ] } } ], "outputContexts": [ { "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic", "lifespanCount": 5, "parameters": { "param": "param value" } } ], "intent": { "name": "projects/your-agents-project-id/agent/intents/29bcd7f8-f717-4261-a8fd-2d3e451b8af8", "displayName": "Matched Intent Name" }, "intentDetectionConfidence": 1, "diagnosticInfo": { }, "languageCode": "en" }
+2019-09-19 11:43:20.083 +02:00 [Information] byteArrary  Length 12035
+2019-09-19 11:43:20.092 +02:00 [Information] workbook XLWorkbook opening from C:\Users\FT\Desktop\WebHookDialogFlow\WebhookApi\WebhookApi\App_Data\Printer.xlsx
+2019-09-19 11:43:23.056 +02:00 [Information]  rows count 3
+2019-09-19 11:43:23.059 +02:00 [Information]  rows loop
+2019-09-19 11:43:23.077 +02:00 [Information]  rowNumber1 rows string paper jams - stuck - paper jagged 
+2019-09-19 11:43:23.084 +02:00 [Information]  matchFound paper jams 
+2019-09-19 11:43:28.520 +02:00 [Information]  result 1. Remove any loose paper in the loading tray.
+2. Press the Resume button on the front of the printer.
+3. Remove stuck paper one sheet at a time, starting in the middle.
+4. Check for any remaining bits of paper.
+2019-09-19 11:43:30.300 +02:00 [Information] Executed action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 13006.9983ms.
+2019-09-19 11:43:30.327 +02:00 [Information] Executing JsonResult, writing value of type '"Google.Cloud.Dialogflow.V2.WebhookResponse"'.
+2019-09-19 11:43:30.493 +02:00 [Information] Executed action "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" in 13282.6472ms
+2019-09-19 11:43:30.631 +02:00 [Information] Request finished in 13479.5125ms 200 application/json; charset=utf-8
+2019-09-19 11:46:07.866 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44326/helpdesk/ application/javascript 1426
+2019-09-19 11:46:07.866 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44326/api/values  
+2019-09-19 11:46:07.866 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54948/  0
+2019-09-19 11:46:07.974 +02:00 [Information] Request finished in 106.7528ms 200 
+2019-09-19 11:46:08.271 +02:00 [Information] Route matched with "{action = \"getData\", controller = \"Helpdesk\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] getData()" on controller "WebhookApi.Controllers.HelpdeskController" ("WebhookApi").
+2019-09-19 11:46:08.271 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "WebhookApi.Controllers.ValuesController" ("WebhookApi").
+2019-09-19 11:46:08.429 +02:00 [Information] Executing action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" - Validation state: Valid
+2019-09-19 11:46:08.429 +02:00 [Information] Executing action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" - Validation state: Valid
+2019-09-19 11:46:08.471 +02:00 [Information] Executed action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.3919ms.
+2019-09-19 11:46:08.522 +02:00 [Information] Start Reqst
+2019-09-19 11:46:08.522 +02:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-09-19 11:46:08.714 +02:00 [Information] Executed action "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" in 421.5396ms
+2019-09-19 11:46:08.736 +02:00 [Information] Request finished in 877.6865ms 200 application/json; charset=utf-8
+2019-09-19 11:46:09.376 +02:00 [Information] { "queryText": "user's original query to your agent", "parameters": { "printerIssue": "paper jams in   ", "PrinterModel": "HP LaserJet Pro P1102w printer" }, "allRequiredParamsPresent": true, "fulfillmentText": "Text defined in Dialogflow's console for the intent that was matched", "fulfillmentMessages": [ { "text": { "text": [ "Text defined in Dialogflow's console for the intent that was matched" ] } } ], "outputContexts": [ { "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic", "lifespanCount": 5, "parameters": { "param": "param value" } } ], "intent": { "name": "projects/your-agents-project-id/agent/intents/29bcd7f8-f717-4261-a8fd-2d3e451b8af8", "displayName": "Matched Intent Name" }, "intentDetectionConfidence": 1, "diagnosticInfo": { }, "languageCode": "en" }
+2019-09-19 11:46:09.389 +02:00 [Information] byteArrary  Length 12035
+2019-09-19 11:46:09.395 +02:00 [Information] workbook XLWorkbook opening from C:\Users\FT\Desktop\WebHookDialogFlow\WebhookApi\WebhookApi\App_Data\Printer.xlsx
+2019-09-19 11:46:11.255 +02:00 [Information]  rows count 3
+2019-09-19 11:46:11.259 +02:00 [Information]  rows loop
+2019-09-19 11:46:11.280 +02:00 [Information]  rowNumber1 rows string paper jams - stuck - paper jagged 
+2019-09-19 11:46:11.288 +02:00 [Information]  matchFound paper jams 
+2019-09-19 11:46:19.802 +02:00 [Information]  result 1. Remove any loose paper in the loading tray.
+2. Press the Resume button on the front of the printer.
+3. Remove stuck paper one sheet at a time, starting in the middle.
+4. Check for any remaining bits of paper.
+2019-09-19 11:46:22.290 +02:00 [Information] Executed action method "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.JsonResult" in 13845.2319ms.
+2019-09-19 11:46:22.341 +02:00 [Information] Executing JsonResult, writing value of type '"Google.Cloud.Dialogflow.V2.WebhookResponse"'.
+2019-09-19 11:46:22.985 +02:00 [Information] Executed action "WebhookApi.Controllers.HelpdeskController.getData (WebhookApi)" in 14613.718ms
+2019-09-19 11:46:23.132 +02:00 [Information] Request finished in 15135.3444ms 200 application/json; charset=utf-8
+2019-09-19 12:54:25.524 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44326/api/values  
+2019-09-19 12:54:25.524 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54948/  0
+2019-09-19 12:54:25.989 +02:00 [Information] Request finished in 1347.0919ms 200 
+2019-09-19 12:54:27.150 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "WebhookApi.Controllers.ValuesController" ("WebhookApi").
+2019-09-19 12:54:27.941 +02:00 [Information] Executing action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" - Validation state: Valid
+2019-09-19 12:54:27.961 +02:00 [Information] Executed action method "WebhookApi.Controllers.ValuesController.Get (WebhookApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.1232ms.
+2019-09-19 12:54:28.000 +02:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-09-19 12:54:28.263 +02:00 [Information] Executed action "WebhookApi.Controllers.ValuesController.Get (WebhookApi)" in 1078.1025ms
+2019-09-19 12:54:28.281 +02:00 [Information] Request finished in 3783.2423ms 200 application/json; charset=utf-8
+2019-09-19 12:54:30.507 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44326/favicon.ico  
+2019-09-19 12:54:30.526 +02:00 [Information] Request finished in 6.6692ms 404 

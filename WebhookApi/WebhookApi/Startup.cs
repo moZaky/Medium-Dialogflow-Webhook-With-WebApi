@@ -6,6 +6,8 @@ using Microsoft.Extensions.Logging;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
+using System.IO;
+using Serilog;
 
 namespace DotNetCoreApiSample
 {
@@ -14,22 +16,27 @@ namespace DotNetCoreApiSample
 		// we use appsettings.json as configuration file to store key-value pairs, 
 		// like database connection string, etc
 		public IConfiguration configuration { get; }
+        public static string wwwRootFolder = string.Empty;
 
-		// we are using Autofac container here to add services and setup Dependency Injection
-		public static IContainer container { get; private set; }
+        // we are using Autofac container here to add services and setup Dependency Injection
+        public static IContainer container { get; private set; }
 
 		// Constructor: initialize configuration 
-		public Startup(IHostingEnvironment env)
+		public Startup(IHostingEnvironment env, IConfiguration configuration)
 		{
 			var builder = new ConfigurationBuilder().
 							SetBasePath(env.ContentRootPath).
 							AddJsonFile("appsettings.json", false, true).
 							AddEnvironmentVariables();
-			configuration = builder.Build();
+            // Init Serilog configuration
+            Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(configuration).CreateLogger();
+            configuration = configuration;
+            configuration = builder.Build();
 		}
+       
 
-		// we added MVC and CORS with a new policy named "AllowAll" to allow visiting from any domains
-		public IServiceProvider ConfigureServices(IServiceCollection services)
+        // we added MVC and CORS with a new policy named "AllowAll" to allow visiting from any domains
+        public IServiceProvider ConfigureServices(IServiceCollection services)
 		{
 			services.AddMvc();
 			services.AddCors(options =>
@@ -58,7 +65,16 @@ namespace DotNetCoreApiSample
 		{
 			app.UseCors("AllowAll");
 			app.UseMvc();
-			applicationLifetime.ApplicationStopped.Register(() => container.Dispose());
+            loggerFctory.AddSerilog();
+            string baseDir = env.ContentRootPath;
+            if (string.IsNullOrWhiteSpace(env.WebRootPath))
+            {
+                env.WebRootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+            }
+            Startup.wwwRootFolder = env.WebRootPath;
+
+            AppDomain.CurrentDomain.SetData("DataDirectory", System.IO.Path.Combine(baseDir, "App_Data"));
+            applicationLifetime.ApplicationStopped.Register(() => container.Dispose());
 		}
 
 
